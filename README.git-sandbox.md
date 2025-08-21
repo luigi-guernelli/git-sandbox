@@ -5,12 +5,12 @@ Qui raccolgo codice e piccoli progetti realizzati durante lo studio.
 
 ## Struttura
 
-- **html-css-js-php/** → esercizi di frontend e primi esempi con PHP  
-- **mysql-query/** → script SQL e query di esempio  
-- **java-oop/** → programmi ed esercizi di Java orientato agli oggetti  
-- **spring-boot/** → prove con applicazioni Spring Boot  
-- **angular/** → esercizi con Angular  
-- **bootstrap/** → esempi di interfacce con Bootstrap  
+- 1. **📙html-css-js-php/** → esercizi di frontend e primi esempi con PHP  
+- 2. **📕java-oop/** → programmi ed esercizi di Java orientato agli oggetti
+- 3. **🐬mysql-query/** → script SQL e query di esempio  
+- 4. **🍃spring-boot/** → prove con applicazioni Spring Boot  
+- 5. **🅰️angular/** → esercizi con Angular  
+- 6. **🥾bootstrap/** → esempi di interfacce con Bootstrap  
 
 ## Obiettivo
 - Tenere traccia dei progressi nello studio  
