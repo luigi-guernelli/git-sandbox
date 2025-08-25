@@ -1,4 +1,0 @@
-tipoRitorno nomeMetodo(parametri) {
-    // corpo del metodo
-    return valore; // se tipoRitorno ≠ void
-}
