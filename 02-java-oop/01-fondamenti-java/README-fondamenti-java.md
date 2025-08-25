@@ -1,9 +1,9 @@
-<strong>1️⃣fondamenta-del-linguaggio. </strong>
+<strong>1️⃣Fondamenta-del-linguaggio. </strong>
 
-<strong>Obiettivo del modulo </strong>
+<strong>Obiettivo del modulo:</strong>
 Imparare a scrivere i primi programmi funzionanti, comprendendo i concetti base della programmazione orientata agli oggetti.
 
-<strong>📋contenuti principali </strong>
+<strong>📋Contenuti principali:</strong>
 - Variabili e tipi di dato → numeri, booleani, stringhe.
 
 - Classi e oggetti → come definire una classe, creare un oggetto (`new`).
