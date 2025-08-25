@@ -1,4 +1,4 @@
-package p04_01_getter_setter;
+package getter_setter_v02;
 
 //Definizione della classe
 public class Studente {

@@ -1,4 +1,4 @@
-package p04_00_getter_setter;
+package getter_setter_v01;
 
 /** Incapsulamento
  * Classe Studente che utilizza getter e setter per incapsulare i dati.
