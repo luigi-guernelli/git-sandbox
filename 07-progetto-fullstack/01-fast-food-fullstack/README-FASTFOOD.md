@@ -10,7 +10,7 @@
 🏗️<strong>Struttura architetturale: MVC + Repository + Service + Metodi HTTP</strong> 
 <br>
 <br>
- - Il backend espone API REST tramite Spring Boot: <br>
+ - Il backend espone API REST tramite Spring Boot: <br><br>
    <ul>
    <li> GET /api/prodotti → restituisce tutti i prodotti </li><br>
    <li> GET /api/prodotti/{id} → restituisce un singolo prodotto</li><br>
