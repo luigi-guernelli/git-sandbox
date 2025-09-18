@@ -1,0 +1,44 @@
+<!-- HEADER + BANNER -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand">FastFood</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarFilters" aria-controls="navbarFilters" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarFilters">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#" (click)="filtraPrezzoMedio()">Prezzo Medio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" (click)="filtraProdottoMenoCaro()">Prodotto Più Economico</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" (click)="filtraProdottoPiuCaro()">Prodotto Più Costoso</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Contenitore per messaggio di benvenuto -->
+<div class="container mt-4 text-center">
+  <h1 class="display-4 fw-bold mb-3 text-primary">Benvenuto nel FastFood</h1>
+  <img src="assets/images/fastfood-banner.png" class="img-fluid rounded shadow" alt="Fastfood Banner">
+</div>
+
+<!-- Contenitore per la selezione delle categorie mex + collegamento -->
+<div class="container mt-5">
+  <h2 class="mb-3">Seleziona una categoria</h2>
+  <div class="list-group">
+    <a *ngFor="let c of categorie" [routerLink]="['/products', c]" class="list-group-item list-group-item-action list-group-item-primary mb-1">
+      {{ c }}
+    </a>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3 mt-5">
+  &copy; 2025 Luigi Guernelli - Tutti i diritti riservati
+</footer>
