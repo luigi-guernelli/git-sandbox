@@ -26,13 +26,13 @@
    - URL di connessione (jdbc:mysql://localhost:3306/fastfood_db) <br>
    - Credenziali di accesso (username e password) <br>
    - Dialect di Hibernate per MySQL <br>
-<hr>
+
  ➡️ **MySQL permette di:** <br>
 - Archiviare i dati dei prodotti in modo strutturato <br>
 - Eseguire query SQL (SELECT, INSERT, UPDATE, DELETE) <br>
 - Effettuare statistiche (prezzo medio, massimo, minimo) <br>
 <hr>
- 3️⃣ **Frontend Angular + BootStrap** <br>
+ 3️⃣ <strong>Frontend Angular + BootStrap</strong> <br>
  - Collegamento con il Frontend <br>
  - Realizzato con HTML, CSS, TypeScript, Angular e Bootstrap per lo stile responsive. <br>
  - Le immagini dei prodotti sono gestite nella cartella src/assets/images. <br>
