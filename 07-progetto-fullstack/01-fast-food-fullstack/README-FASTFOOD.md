@@ -6,7 +6,7 @@
    - categoria -> tipologia (Panini, Bevende, Contorni),
    - prezzo    -> il costo di ogni prodotto min max averege,
    - immagine  -> riferimento all'immagine nel frontend.
-
+<hr>
  - Struttura architetturale: MVC + Repository + Service + Metodi HTTP
  - Il backend espone API REST tramite Spring Boot:
    - GET /api/prodotti → restituisce tutti i prodotti
@@ -15,7 +15,7 @@
    - PUT /api/prodotti/{id} → aggiorna un prodotto
    - DELETE /api/prodotti/{id} → elimina un prodotto
 ➡️ Le API interagiscono con il database MySQL tramite JPA Repository.
-
+<hr>
  2️⃣ **Database – MySQL**
  - Utilizzato per la persistenza dei dati dei prodotti.
  - Configurato in Spring Boot tramite file application.properties o application.yml, specificando:
@@ -27,7 +27,7 @@
 - Archiviare i dati dei prodotti in modo strutturato
 - Eseguire query SQL (SELECT, INSERT, UPDATE, DELETE)
 - Effettuare statistiche (prezzo medio, massimo, minimo)
-
+<hr>
  3️⃣ **Frontend Angular + BootStrap**
  - Collegamento con il Frontend
  - Realizzato con HTML, CSS, TypeScript, Angular e Bootstrap per lo stile responsive.
@@ -37,7 +37,7 @@
   - Prezzo medio
   - Prodotto più costoso
   - Prodotto meno costoso
-
+<hr>
 📌** Questa sintesi ti permette di mostrare chiaramente:**
 - La struttura del backend (API + database + architettura)
 - Le funzionalità del frontend (interfaccia + immagini + filtri dinamici)
