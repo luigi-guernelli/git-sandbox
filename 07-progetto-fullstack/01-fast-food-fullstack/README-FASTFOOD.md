@@ -8,13 +8,13 @@
    - immagine  -> riferimento all'immagine nel frontend.
 ------------------------------------------------------------------------------------------------
  - Struttura architetturale: MVC + Repository + Service + Metodi HTTP
- - Il backend espone API REST tramite Spring Boot:
-   - GET /api/prodotti → restituisce tutti i prodotti
-   - GET /api/prodotti/{id} → restituisce un singolo prodotto
-   - POST /api/prodotti → inserisce un nuovo prodotto
-   - PUT /api/prodotti/{id} → aggiorna un prodotto
-   - DELETE /api/prodotti/{id} → elimina un prodotto
-➡️ Le API interagiscono con il database MySQL tramite JPA Repository.
+ - Il backend espone API REST tramite Spring Boot:<br>
+   - GET /api/prodotti → restituisce tutti i prodotti<br>
+   - GET /api/prodotti/{id} → restituisce un singolo prodotto<br>
+   - POST /api/prodotti → inserisce un nuovo prodotto<br>
+   - PUT /api/prodotti/{id} → aggiorna un prodotto <br>
+   - DELETE /api/prodotti/{id} → elimina un prodotto <br>
+➡️ Le API interagiscono con il database MySQL tramite JPA Repository. <br>
 <hr>
  2️⃣ **Database – MySQL**
  - Utilizzato per la persistenza dei dati dei prodotti.
