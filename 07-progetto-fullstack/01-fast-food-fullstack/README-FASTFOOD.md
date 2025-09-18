@@ -9,11 +9,13 @@
 <hr>
  - Struttura architetturale: MVC + Repository + Service + Metodi HTTP
  - Il backend espone API REST tramite Spring Boot:<br>
-   - GET /api/prodotti → restituisce tutti i prodotti<br>
-   - GET /api/prodotti/{id} → restituisce un singolo prodotto<br>
-   - POST /api/prodotti → inserisce un nuovo prodotto<br>
-   - PUT /api/prodotti/{id} → aggiorna un prodotto <br>
-   - DELETE /api/prodotti/{id} → elimina un prodotto <br>
+   <ul>
+   <li> GET /api/prodotti → restituisce tutti i prodotti </li><br>
+   <li> GET /api/prodotti/{id} → restituisce un singolo prodotto</li><br>
+   <li> POST /api/prodotti → inserisce un nuovo prodotto</li><br>
+   <li>PUT /api/prodotti/{id} → aggiorna un prodotto</li><br>
+   <li>DELETE /api/prodotti/{id} → elimina un prodotto</li><br>
+</ul>
 ➡️ Le API interagiscono con il database MySQL tramite JPA Repository. <br>
 <hr>
  2️⃣ **Database – MySQL**
