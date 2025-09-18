@@ -17,6 +17,7 @@
    <li> POST /api/prodotti → inserisce un nuovo prodotto</li><br>
    <li> PUT /api/prodotti/{id} → aggiorna un prodotto</li><br>
    <li> DELETE /api/prodotti/{id} → elimina un prodotto</li><br>
+   <li>Base URL: http://localhost:8080/api/prodotti</li><br>
 </ul>
 ➡️ Le API interagiscono con il database MySQL tramite JPA Repository. <br>
 <hr>
