@@ -26,8 +26,8 @@
    - URL di connessione (jdbc:mysql://localhost:3306/fastfood_db) <br>
    - Credenziali di accesso (username e password) <br>
    - Dialect di Hibernate per MySQL
-<br>
- ➡️ **MySQL permette di:** <br>
+<br><br>
+ ➡️ <strong>MySQL permette di:</strong> <br>
 - Archiviare i dati dei prodotti in modo strutturato <br>
 - Eseguire query SQL (SELECT, INSERT, UPDATE, DELETE) <br>
 - Effettuare statistiche (prezzo medio, massimo, minimo) <br>
