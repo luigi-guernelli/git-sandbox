@@ -7,7 +7,7 @@
    - prezzo    -> il costo di ogni prodotto min max averege,
    - immagine  -> riferimento all'immagine nel frontend.
 <hr>
-**🏗️ Struttura architetturale: MVC + Repository + Service + Metodi HTTP** <br>
+🏗️<strong>Struttura architetturale: MVC + Repository + Service + Metodi HTTP</strong> <br>
  - Il backend espone API REST tramite Spring Boot: <br>
    <ul>
    <li> GET /api/prodotti → restituisce tutti i prodotti </li><br>
