@@ -1,13 +1,15 @@
 # Progetto FastFood 
  1️⃣ **Backend Java + Spring Boot**
  - E' stata creata una tabella prodotti che contiene i dati principali:
-   - id        -> identificatore univoco (Chiave primaria), 
-   - nome      -> nome del prodotto,
-   - categoria -> tipologia (Panini, Bevende, Contorni),
-   - prezzo    -> il costo di ogni prodotto min max averege,
-   - immagine  -> riferimento all'immagine nel frontend.
+   - id            -> identificatore univoco (Chiave primaria), 
+   - nome          -> nome del prodotto,
+   - categoria     -> tipologia (Panini, Bevende, Contorni),
+   - prezzo        -> il costo di ogni prodotto min max averege,
+   - immagine      -> riferimento all'immagine nel frontend.
 <hr>
-🏗️<strong>Struttura architetturale: MVC + Repository + Service + Metodi HTTP</strong> <br>
+🏗️<strong>Struttura architetturale: MVC + Repository + Service + Metodi HTTP</strong> 
+<br>
+<br>
  - Il backend espone API REST tramite Spring Boot: <br>
    <ul>
    <li> GET /api/prodotti → restituisce tutti i prodotti </li><br>
