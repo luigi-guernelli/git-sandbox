@@ -20,7 +20,7 @@
 </ul>
 ➡️ Le API interagiscono con il database MySQL tramite JPA Repository. <br>
 <hr>
- 2️⃣ **Database – MySQL**
+ 2️⃣ <strong>Database – MySQL</strong> <br>
  - Utilizzato per la persistenza dei dati dei prodotti. <br>
  - Configurato in Spring Boot tramite file application.properties o application.yml, specificando: <br>
    - URL di connessione (jdbc:mysql://localhost:3306/fastfood_db) <br>
