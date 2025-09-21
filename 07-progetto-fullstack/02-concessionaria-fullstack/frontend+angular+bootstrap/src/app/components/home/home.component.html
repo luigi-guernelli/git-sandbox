@@ -1,0 +1,14 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let categoria of categorie">
+      <div class="card shadow-sm">
+        <div class="card-body text-center">
+          <h5 class="card-title">{{ categoria.nome }}</h5>
+          <button class="btn btn-primary" (click)="vaiACategoria(categoria.tipo)">
+            Vedi {{ categoria.nome }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

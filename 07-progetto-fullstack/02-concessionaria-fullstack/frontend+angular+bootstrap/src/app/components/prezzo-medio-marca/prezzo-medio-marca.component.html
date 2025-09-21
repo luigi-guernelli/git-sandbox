@@ -1,0 +1,19 @@
+<div class="container mt-4">
+  <h2>Prezzo medio per marca</h2>
+
+  <div class="mb-3">
+    <input type="text" class="form-control" placeholder="Inserisci marca..." [(ngModel)]="marca">
+  </div>
+
+  <button class="btn btn-primary mb-3" (click)="calcolaPrezzoMedio()">
+    Calcola
+  </button>
+
+  <div *ngIf="loading">Calcolo in corso...</div>
+  <div *ngIf="!loading && prezzoMedio !== null">
+    <p>Prezzo medio per <strong>{{ marca }}</strong>: {{ prezzoMedio | currency:'EUR' }}</p>
+  </div>
+  <div *ngIf="!loading && prezzoMedio === null && marca">
+    <p>Nessun veicolo trovato per questa marca.</p>
+  </div>
+</div>

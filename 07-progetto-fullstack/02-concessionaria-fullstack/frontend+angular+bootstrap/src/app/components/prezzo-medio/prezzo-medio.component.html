@@ -1,0 +1,6 @@
+<div class="container mt-4">
+  <h2>Prezzo medio</h2>
+  <p *ngIf="loading">Caricamento…</p>
+  <p *ngIf="!loading && prezzoMedio !== null">Prezzo medio: {{ prezzoMedio | currency:'EUR' }}</p>
+  <p *ngIf="!loading && prezzoMedio === null">Nessun dato disponibile.</p>
+</div>
