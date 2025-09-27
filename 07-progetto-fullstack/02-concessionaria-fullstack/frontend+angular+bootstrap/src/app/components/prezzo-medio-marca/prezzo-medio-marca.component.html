@@ -23,6 +23,16 @@
 
 <!-- Messaggio iniziale -->
 <div *ngIf="!loading && !prezzoMedio && !nessunVeicolo">
-  <p>Il calcolo viene eseguito su tutti i veicoli presenti (Automobili + Motociclette + Furgoni)</p>
+  <p>Inserisci la marca di un veicolo (Automobili, Motociclette, Furgoni) es. Merceds, Renault, Ducati</p>
 </div>
 
+<ul>
+  <li>Inserendo la marca di un veicolo se presente nelle altre categorie, vengono sommati e divisi i prezzo 
+    per la quantità presente nel database. </li><br>
+
+  <li> Esempio:
+    Se <b>Renault</b> è presente sia in <b>Automobile</b> che in <b>Furgone</b> vengono sommati
+     un tot di veicoli diviso per lo stesso numero. </li><br>
+  
+  <li>Se la marca di un veicolo è scritta in modo errato o si inserisce un nome sbagliato comparirà un messaggio di errore.</li>
+</ul>
