@@ -9,11 +9,20 @@
     Calcola
   </button>
 
-  <div *ngIf="loading">Calcolo in corso...</div>
-  <div *ngIf="!loading && prezzoMedio !== null">
-    <p>Prezzo medio per <strong>{{ marca }}</strong>: {{ prezzoMedio | currency:'EUR' }}</p>
-  </div>
-  <div *ngIf="!loading && prezzoMedio === null && marca">
-    <p>Nessun veicolo trovato per questa marca.</p>
-  </div>
+<div *ngIf="loading">Calcolo in corso...</div>
+
+<!-- Prezzo medio calcolato -->
+<div *ngIf="!loading && prezzoMedio !== null">
+  <p>Prezzo medio per <strong>{{ marca }}</strong>: {{ prezzoMedio | currency:'EUR' }}</p>
 </div>
+
+<!-- Nessun veicolo trovato -->
+<div *ngIf="!loading && nessunVeicolo">
+  <p>Nessun veicolo trovato per la marca <strong>{{ marca }}</strong>.</p>
+</div>
+
+<!-- Messaggio iniziale -->
+<div *ngIf="!loading && !prezzoMedio && !nessunVeicolo">
+  <p>Il calcolo viene eseguito su tutti i veicoli presenti (Automobili + Motociclette + Furgoni)</p>
+</div>
+
