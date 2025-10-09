@@ -1,0 +1,11 @@
+CREATE DATABASE fastfood;
+
+USE fastfood;
+
+CREATE TABLE prodotti (
+id int AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(100) NOT NULL,
+categoria VARCHAR(50) NOT NULL,
+prezzo DECIMAL(6,2) NOT NULL,
+immagine VARCHAR(255)
+);

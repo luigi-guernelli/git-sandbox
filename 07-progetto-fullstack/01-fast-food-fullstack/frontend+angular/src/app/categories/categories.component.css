@@ -1,0 +1,9 @@
+.banner-categorie {
+  height: 250px; /* altezza del banner */
+  background-image: url('/assets/images/fastfood-banner.png');
+  background-size: cover;      /* l’immagine copre tutto il div */
+  background-position: center; /* centra l’immagine */
+  background-repeat: no-repeat;
+  font-size: 2rem;
+  font-weight: bold;
+}
