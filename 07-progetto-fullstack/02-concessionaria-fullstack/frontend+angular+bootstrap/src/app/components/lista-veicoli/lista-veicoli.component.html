@@ -1,0 +1,27 @@
+<div class="container mt-4">
+  <button class="btn btn-secondary mb-3" routerLink="/">
+    <i class="bi bi-arrow-left"></i> Torna alla Home
+  </button>
+
+  <h2 class="mb-4">Lista Veicoli - {{ tipo || 'Tutti' }}</h2>
+
+  <div class="mb-3">
+    <input type="text" class="form-control" placeholder="Cerca (marca, modello, codice)..." [(ngModel)]="filtroMarca">
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 mb-3" *ngFor="let v of veicoliFiltrati">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">{{ v.marca }} {{ v.modello }}</h5>
+          <p class="card-text">Codice: {{ v.codiceImmatricolazione }}</p>
+          <p class="card-text">Data: {{ v.dataImmatricolazione | date }}</p>
+          <p class="card-text"><strong>Prezzo: {{ v.prezzo | currency:'EUR' }}</strong></p>
+          <!--button class="btn btn-danger btn-sm me-2" (click)="deleteVeicolo(v.id)">
+            <i class="bi bi-trash"></i> Elimina
+          </button-->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
