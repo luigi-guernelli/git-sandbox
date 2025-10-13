@@ -1,0 +1,1 @@
+RisultatiContatori{numeroCartelle=1, numeroSottoCartelle=46, numeroFile=65, numeroParoleTrovate=9}
