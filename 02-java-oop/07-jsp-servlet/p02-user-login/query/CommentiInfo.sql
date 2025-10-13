@@ -1,0 +1,3 @@
+-- Tool utili
+-- -- tasto-dx-on>tables>copy-clipboard>create-statement>copy-script-sql>copy>paste (alla fine comparirà il codice con le caratteristiche prei-mpostate) guarda es.CreateTableStatement
+-- -- modifica gli attributi aggiungi attributi imposta i valori da ALTER_TABLE
