@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista Corsi</title>
+</head>
+<body>
+    <h2>Elenco dei Corsi</h2>
+    <ul>
+        <li th:each="corso : ${corsi}">
+            <span th:text="${corso.descrizione}">Nome Corso</span>
+        </li>
+    </ul>
+
+    <h3>Categorie Disponibili</h3>
+    <ul>
+        <li th:each="cat : ${categorie}">
+            <span th:text="${cat.descrizione}">Categoria</span>
+        </li>
+    </ul>
+
+   <p><a th:href="@{home}">Torna alla Home</a></p>
+</body>
+</html>

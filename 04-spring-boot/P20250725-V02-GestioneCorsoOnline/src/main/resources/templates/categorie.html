@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Corsi per Categoria</title>
+</head>
+<body>
+    <h2>Seleziona una categoria</h2>
+
+    <form th:action="@{/view/categorie/corsi}" method="post">
+        <select name="categoriaId">
+            <option th:each="cat : ${categorie}" th:value="${cat.id}" th:text="${cat.descrizione}">Categoria</option>
+        </select>
+        <button type="submit">Visualizza Corsi</button>
+    </form>
+
+    <p><a th:href="@{home}">Torna alla Home</a></p>
+</body>
+</html>

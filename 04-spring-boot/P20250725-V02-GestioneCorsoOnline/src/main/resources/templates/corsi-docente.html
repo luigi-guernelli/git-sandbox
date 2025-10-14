@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Corsi del Docente</title>
+</head>
+<body>
+    <h2>Corsi del docente selezionato</h2>
+    <ul>
+        <li th:each="corso : ${corsi}" th:text="${corso.descrizione}">Corso</li>
+    </ul>
+
+    <p><a th:href="@{/view/docenti}">Torna a selezione docenti</a></p>
+</body>
+</html>
