@@ -1,0 +1,40 @@
+<div class="container mt-4">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h3>Abiti di tipo: {{ tipo }}</h3>
+    <button class="btn btn-success" (click)="nuovoAbito()">+ Nuovo abito</button>
+  </div>
+
+  <div *ngIf="abiti.length > 0; else nessunAbito">
+    <div class="row">
+      <div class="col-md-4 mb-3" *ngFor="let a of abiti">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">{{ a.marca }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{ a.tipo }}</h6>
+            <p class="card-text">
+              Taglia: {{ a.taglia }} <br>
+              Prezzo: €{{ a.prezzo }}
+            </p>
+            <p *ngIf="a.lunghezzaManica">Manica: {{ a.lunghezzaManica }}</p>
+            <p *ngIf="a.materiale">Materiale: {{ a.materiale }}</p>
+            <p *ngIf="a.fit">Fit: {{ a.fit }}</p>
+
+            <button class="btn btn-primary btn-sm me-2"
+                    (click)="modificaAbito(a.id!)">Modifica</button>
+            <button class="btn btn-danger btn-sm"
+                    (click)="eliminaAbito(a.id!)">Elimina</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #nessunAbito>
+    <div class="alert alert-info">
+      Nessun abito presente per questo tipo.
+      <button class="btn btn-link p-0 align-baseline" (click)="nuovoAbito()">Aggiungi il primo</button>
+    </div>
+  </ng-template>
+
+  <button class="btn btn-outline-secondary mt-3" routerLink="/">🏠 Torna alle categorie</button>
+</div>

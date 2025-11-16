@@ -12,7 +12,6 @@
         <option value="PANTALONE">Pantalone</option>
         <option value="CAMICIA">Camicia</option>
         <option value="MAGLIONE">Maglione</option>
-        
         <option value="GIACCA">Giacca</option>
       </select>
       <div *ngIf="abitoForm.get('tipo')?.invalid && abitoForm.get('tipo')?.touched"
@@ -63,7 +62,6 @@
       {{ isEdit ? 'Salva modifiche' : 'Crea abito' }}
     </button>
     <button type="button" class="btn btn-secondary" (click)="annulla()">Annulla</button>
-    
 
   </form>
 </div>

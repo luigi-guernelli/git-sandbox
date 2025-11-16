@@ -77,8 +77,7 @@ export class AbitoFormComponent implements OnInit {
       this.abitoForm.get('materiale')?.enable();
     }
 
-    
-    // MAGLIONE
+      // GIACCA
     else if (tipo === 'GIACCA') {
       this.abitoForm.get('lunghezzaManica')?.disable();
       this.abitoForm.get('fit')?.disable();
