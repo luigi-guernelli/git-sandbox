@@ -1,0 +1,16 @@
+<div class="container mt-4">
+  <h3>Abiti per categoria: {{ tipo }}</h3>
+  <div class="row mt-3">
+    <div class="col-md-4 mb-3" *ngFor="let a of abiti">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">{{ a.marca }}</h5>
+          <p class="card-text">
+            <strong>Taglia:</strong> {{ a.taglia }}<br>
+            <strong>Prezzo:</strong> €{{ a.prezzo }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

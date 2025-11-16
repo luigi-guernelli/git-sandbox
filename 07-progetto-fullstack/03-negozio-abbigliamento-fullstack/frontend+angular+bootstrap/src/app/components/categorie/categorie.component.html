@@ -1,0 +1,10 @@
+<div class="container mt-4">
+  <h3 class="mb-3">Categorie di abiti</h3>
+  <div class="list-group">
+    <a *ngFor="let c of categorie"
+       class="list-group-item list-group-item-action"
+       [routerLink]="['/abiti', c.code]">
+      <i class="fa fa-tag me-2"></i> {{ c.label }}
+    </a>
+  </div>
+</div>
