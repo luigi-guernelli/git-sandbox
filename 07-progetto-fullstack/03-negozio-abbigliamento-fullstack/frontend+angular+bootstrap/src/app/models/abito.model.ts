@@ -1,10 +1,10 @@
 export interface Abito {
   id?: number;
-  tipo: string;       // "PANTALONE" | "CAMICIA" | "MAGLIONE"
+  tipo: string;             // "PANTALONE" | "CAMICIA" | "MAGLIONE" ...
   marca: string;
   taglia: string;
   prezzo: number;
-  fit?: string;
-  lunghezzaManica?: string;
-  materiale?: string;
+  lunghezzaManica?: string; // per camicie
+  materiale?: string;       // per maglioni/pantaloni
+  fit?: string;             // per pantaloni
 }

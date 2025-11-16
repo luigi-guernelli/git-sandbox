@@ -1,0 +1,26 @@
+/* Stili personalizzati per la navbar */
+.navbar-rosa-fume .navbar-brand .nav-link .navbar-rosa-fume {
+    /*font-weight: bold;*/
+        color: #4A4A4A !important;
+    font-size: 1.5rem;
+}
+.navbar-rosa-fume {
+    background-color: #daafda !important;
+}
+
+.navbar-rosa-fume .nav-link.active {
+    color: #8B4789 !important;
+    font-weight: bold;
+}
+
+.home-icon {
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+/* Stili generali */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

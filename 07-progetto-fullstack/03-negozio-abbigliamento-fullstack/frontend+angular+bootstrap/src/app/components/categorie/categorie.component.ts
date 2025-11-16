@@ -8,6 +8,8 @@ export class CategorieComponent {
   categorie = [
     { code: 'PANTALONE', label: 'Pantaloni' },
     { code: 'CAMICIA', label: 'Camicie' },
-    { code: 'MAGLIONE', label: 'Maglioni' }
+    { code: 'MAGLIONE', label: 'Maglioni' },
+    { code: 'GIACCA', label: 'Giacche' }
+
   ];
 }
